@@ -1,5 +1,5 @@
 {
-  "name": "webpack-demo",
+  "name": "webpack-demo1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,5 +15,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://forsuccess.github.io/webpack-demo/build"
+  "homepage": "https://forsuccess.github.io/webpack-demo1/build"
 }
