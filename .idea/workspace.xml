@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef5d113f-7c1e-4707-bc5f-9f06ffea7e48" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ForgotPasswordForm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SignInForm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SignInOrSignUp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SignUpForm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserDialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserDialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leanCloud.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.349b6812.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.349b6812.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.53e89e14.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.53e89e14.js.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/asset-manifest.json" afterPath="$PROJECT_DIR$/build/asset-manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/service-worker.js" afterPath="$PROJECT_DIR$/build/service-worker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TodoInput.css" afterPath="$PROJECT_DIR$/src/TodoInput.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TodoInput.js" afterPath="$PROJECT_DIR$/src/TodoInput.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TodoItem.css" afterPath="$PROJECT_DIR$/src/TodoItem.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TodoItem.js" afterPath="$PROJECT_DIR$/src/TodoItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="webpack-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -291,15 +271,15 @@
       <workItem from="1500016714281" duration="25585000" />
       <workItem from="1500162357078" duration="16221000" />
       <workItem from="1500255069532" duration="37268000" />
-      <workItem from="1500451790726" duration="5939000" />
+      <workItem from="1500451790726" duration="6417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85013000" />
+    <option name="totallyTimeSpent" value="85491000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="123" y="66" width="1309" height="788" extended-state="0" />
+    <frame x="123" y="66" width="1309" height="788" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21500386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
