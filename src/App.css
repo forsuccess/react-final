@@ -15,3 +15,27 @@
 .App > .todoList> li:nth-child(even){
     background: transparent;
 }
+ol{
+    margin-top:10px;
+}
+.top h1{
+    float:left;
+    color: white;
+}
+.top button{
+    margin-left: 300px;
+    margin-top: 30px;
+    padding: 5px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+.App .top{
+    background-color: blue;
+    padding: 5px;
+    width: 107%;
+    margin-left: -16px;
+    border-radius: 5px;
+    border-radius-bottom: none;
+}

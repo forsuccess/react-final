@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import './TodoItem.css'
+import './iconfont/iconfont.css'
 export default class TodoItem extends Component {
 render() {
     return (
               <div className="TodoItem">
-                <input type="checkbox" checked={this.props.todo.status === 'completed'}
+                <input type="checkbox" className="iconfont" checked={this.props.todo.status === 'completed'}
                    onChange={this.toggle.bind(this)
                    }
                 /> <span className="title">{this.props.todo.title}</span>
-                  <button onClick={this.delete.bind(this)}>删除</button>
+                  <button onClick={this.delete.bind(this)}>
+                      <i className="iconfont icon-delete"></i>
+                  </button>
      </div>
         )
 }

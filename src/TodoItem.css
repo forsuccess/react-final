@@ -7,3 +7,18 @@
     flex-grow: 1;
     padding: 0 .5em;
 }
+.TodoItem i{
+    cursor: pointer;
+}
+.TodoItem button{
+    border: none;
+}
+.TodoItem .iconfont{
+    font-family: iconfont!important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+}
+.TodoItem .icon-delete:before {
+    content: "\E63F";
+}
