@@ -59,10 +59,11 @@ class App extends Component {
                   onChange={this.changeTitle.bind(this)}
                   />
           </div>
-          <h2>已完成</h2>
-          <ol className="todoList">{todos_finish}</ol>
+
           <h2>未完成</h2>
           <ol className="todoList">{todos_no}</ol>
+          <h2>已完成</h2>
+          <ol className="todoList">{todos_finish}</ol>
           {this.state.user.id ?
               null :
               <UserDialog

@@ -13,12 +13,29 @@ export default class UserDialog extends Component{
             formData: {
                 username: '',
                 password: '',
+                email: ''
             }
         }
     }
     signUp(e){
         e.preventDefault()
-        let {username, password} = this.state.formData
+        let {username, password,email} = this.state.formData
+        if(username==""||username.length<3){
+            alert("请输入至少3位以上用户名")
+            return false;
+        }
+        if(password==""||password.length<6){
+            alert("请输入至少6位以上密码")
+            return false;
+        }
+        if(email.match(/@/) === null){
+            alert('请填写正确的邮箱地址')
+            return false;
+        }
+        //if(reg.test())
+        // if(!flag){
+        //     return false;
+        // }
         let success = (user)=>{
             this.props.onSignUp.call(null, user)
         }
